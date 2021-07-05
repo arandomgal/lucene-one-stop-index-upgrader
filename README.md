@@ -1,7 +1,7 @@
-# Lucene Index Upgrader
+# Lucene One Stop Index Upgrader
 * This is a stand-alone Java application that upgrades Lucene indexes to version 8.8.1.
 * It is based off the open source project [luceneupgrader](https://github.com/hakanai/luceneupgrader).
-* For simplicity, I removed all tests related the code and converted the project into gradle project.
+* For simplicity, I removed all tests related the code and converted the project into a gradle project.
 * You can change the [build.gradle](./build.gradle) file to specify the exact Lucene version
 you would like to be upgraded to, for example 8.8.2 or 8.9.0.
 
