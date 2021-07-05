@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'ying.andrews.lucene'
+version '8.8.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.apache.lucene', name: 'lucene-core', version: '8.8.1'
+    implementation group: 'org.apache.lucene', name: 'lucene-backward-codecs', version: '8.8.1'
+}
